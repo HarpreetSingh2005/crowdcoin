@@ -1,0 +1,63 @@
+/* styles/globals.css */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html, body {
+  height: 100%; /* Ensure html and body take full height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Poppins', sans-serif; /* Use your preferred font */
+  overscroll-behavior: none; /* Prevent scrolling behavior */
+}
+
+.layout {
+  background: url('../Background\ images/Image_3.jpg') no-repeat center center; /* Correct image path */
+  background-attachment: scroll; /* Change to scroll to allow the image to move with content */
+  background-size: cover; /* Cover the entire area */
+  min-height: 100vh; /* Ensure it takes at least full height */
+  position: relative;
+  overflow: hidden;
+}
+.layout.home-bg {
+  background: url('../Background images/Image_3.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.layout.about-bg {
+  background: url('../Background images/Image_2.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.layout.default-bg {
+  background-color: bisque;
+}
+
+/* Optional: Add a subtle overlay effect */
+.layout::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1); /* Light overlay for depth */
+  pointer-events: none; /* Allow clicks to pass through */
+  z-index: 1; /* Ensure it stays above the background */
+}
+
+/* Style for the content inside the layout */
+.layout > * {
+  position: relative; /* Ensure content is above the overlay */
+  z-index: 2; /* Ensure content is above the overlay */
+}
+
+

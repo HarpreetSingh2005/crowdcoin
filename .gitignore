@@ -1,0 +1,22 @@
+# Next.js build output
+.next/
+
+# Root environment config
+.env
+
+# Node modules
+node_modules/
+backend/node_modules/
+
+# Backend uploads (we are ignoring the folder)
+backend/uploads/
+
+# Backend environment
+backend/.env
+
+# Ethereum config (private keys, etc.)
+ethereum/.env
+
+# Ignore all background images except specific one
+Background images/*
+!Background images/Image_3.jpg
