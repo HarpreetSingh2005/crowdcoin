@@ -5,6 +5,9 @@ CrowdCoin, inspired by Kickstart, is a decentralized application (dApp) that all
 ## What is Kickstart
 Kickstart is a crowdfunding platform, where you raise funds for your startups, new ideas.
 
+## Demo Video
+https://github.com/user-attachments/assets/4af70753-06f9-4686-83be-3f973a64be6b
+
 ## What's Unique about CrowdCoin
 
 - Create Blockchain-powered fundraising campaigns
