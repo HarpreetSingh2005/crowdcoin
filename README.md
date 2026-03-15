@@ -2,11 +2,18 @@
 
 CrowdCoin, inspired by Kickstart, is a decentralized application (dApp) that allows users to create and contribute to crowdfunding campaigns using Ethereum. This project is the final project of the Stephen Gride's Ethereum Course. Built using Next.js, Solidity, and Web3.js, the project connects users with transparent fundraising efforts on the blockchain.
 
-## What is Kickstart
-Kickstart is a crowdfunding platform, where you raise funds for your startups, new ideas.
+
+## Deployment
+
+| Network | Contract Address | Explorer |
+|--------|--------|--------|
+| Sepolia Testnet | `0xEFf4120B30B1F4c19EE490B39b37f5Bf536c300C` | [View on Etherscan](https://sepolia.etherscan.io/address/0xEFf4120B30B1F4c19EE490B39b37f5Bf536c300C) |
 
 ## Demo Video
 https://github.com/user-attachments/assets/4af70753-06f9-4686-83be-3f973a64be6b
+
+## What is Kickstart
+Kickstart is a crowdfunding platform, where you raise funds for your startups, new ideas.
 
 ## What's Unique about CrowdCoin
 
